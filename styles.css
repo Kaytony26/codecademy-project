@@ -1,0 +1,47 @@
+* {
+    background-color:beige;
+    margin: 0 auto;
+    padding: 10px;
+    color: rgb(19, 48, 48);
+    font-family: 'Playfair Display';
+    
+}
+#head {
+    background-color: beige;
+    display: flex;
+
+}
+#head, #displayblock, #displayinline, #displayinlineblock {
+    font-size: 15px;
+}
+h1 {
+    border: 2px solid grey;
+    background-color: grey;
+    border-radius: 3px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.block {
+    border: 3px solid;
+    background-color: blue;
+    position: relative;
+    top: -20px;
+    margin: 0 10px;
+}
+.block:hover, .top:hover {
+    color: blue;
+}
+
+.display {
+    border: 2px solid grey;
+    background-color: grey;
+    border-radius: 3px;
+    margin: 10px;
+}
+#displayblock {
+    color:rgb(19, 48, 48);
+}
+ul {
+    margin-left: 15px;
+}
